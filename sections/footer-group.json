@@ -11,36 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_section_ygMLaN": {
-      "type": "custom-section",
-      "name": "Custome-Section",
-      "settings": {
-        "show_announcement": true,
-        "products_per_page": 20,
-        "logo_aligment": "left",
-        "font_size": 24,
-        "vertical_alignment": "middle",
-        "footer_linklist_title": "Quick links",
-        "home_welcome_message": "Welcome to my shop!",
-        "article": "",
-        "blog": ""
-      }
-    },
-    "custom_section_QU8be7": {
-      "type": "custom-section",
-      "name": "Custome-Section",
-      "settings": {
-        "show_announcement": true,
-        "products_per_page": 20,
-        "logo_aligment": "left",
-        "font_size": 16,
-        "vertical_alignment": "middle",
-        "footer_linklist_title": "Quick links",
-        "home_welcome_message": "Welcome to my shop!",
-        "article": "",
-        "blog": ""
-      }
-    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -60,8 +30,6 @@
     }
   },
   "order": [
-    "custom_section_ygMLaN",
-    "custom_section_QU8be7",
     "footer"
   ]
 }
