@@ -1,4 +1,22 @@
-<div>
-
-    dsfasdfasdfas
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+<div class="custom-section">
+    <div class="custom-section__content">
+        <div class="custom-section__content-inner">
+            <div class="custom-section__content-inner-left">
+                <div class="custom-section__content-inner-left-text">
+                    {{ section.settings.text }}
+                </div>
+            </div>
+            <div class="custom-section__content-inner-right">
+                <div class="custom-section__content-inner-right-image">
+                    {{ section.settings.image | image_url: width: 1000 | image_tag }}
+                </div>
+            </div>
+        </div>
+        <div class="custom-section__content-inner-bottom">
+            <div class="custom-section__content-inner-bottom-text">
+                {{ section.settings.text }}
+            </div>
+        </div>
+    </div>
 </div>
