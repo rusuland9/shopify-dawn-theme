@@ -11,6 +11,14 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_section_QU8be7": {
+      "type": "custom-section",
+      "name": "Custome-Section",
+      "settings": {
+        "custome-text": "",
+        "image": "shopify://shop_images/Main_b9e0da7f-db89-4d41-83f0-7f417b02831d.jpg"
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -30,6 +38,7 @@
     }
   },
   "order": [
+    "custom_section_QU8be7",
     "footer"
   ]
 }
