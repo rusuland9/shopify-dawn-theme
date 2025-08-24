@@ -1,0 +1,20 @@
+{% render 'custom' %}
+
+<div>
+  <h2>{{ section.settings['custome-text'] }}</h2>
+</div>
+
+{% schema %}
+{
+  "name": "custom-section",
+  "tag": "article",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+    }
+  ]
+}
+{% endschema %}
